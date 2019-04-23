@@ -12,7 +12,7 @@ A minimal, ES6 boilerplate, for simple landing pages.
   - [Milligram](https://milligram.io/index.html]https://milligram.io/index.html) - A minimalist CSS framework.
   - [Ionicons](https://ionicons.com/) - Font icons.
     - Fonts are loaded by cdn url by default, but boilerplate contains an example if you prefer to load them with webpack.
-  - [jQuery, v3.3.1](https://jquery.com/) - Event management and DOM manipulation.
+  - [jQuery, v3.4.0](https://jquery.com/) - Event management and DOM manipulation.
     - Jquery is loaded by cdn url by default, but boilerplate contains a webpack configuration and a js example if you prefer to load it with webpack. Just uncomment `Expose jQuery` section on the `wepack.common.js` file and `src/index.js`.
   - [owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/) - Carousel.
 
