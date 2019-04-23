@@ -62,11 +62,68 @@ Related Links:
 
 - Production aka live.
   - webpack mode: 'production'.
-  - _cdnPublicFolder.scss is loaded from './src/common/sass/cdnPublicFolder/live', "cdnFile" sass mixin and returns: '/_commonFiles'.
+  - _cdnPublicFolder.scss is loaded from './src/common/sass/cdnPublicFolder/live', "cdnFile" sass mixin and returns: ''.
 
 Concept:
   1. https://webpack.js.org/concepts/mode/
   2. [CDN public urls on scss](#CDN-public-urls-on-scss)
+
+## CDN public urls on scss
+If your website uses CDNs for the images, css might require different urls per
+environment. For example an image preloader could have this url on development environment:
+
+```scss
+.preloader {
+  background: transparent url("/img/ajax-loader.gif") no-repeat center center;
+}
+```
+This on testing and live environment:
+```scss
+.preloader {
+  background: transparent url("/_commonFiles/img/ajax-loader.gif") no-repeat center center;
+}
+```
+
+For this purpose for each environment we will create a sass mixin `cdnFile` and use that instead of the `url` rule.
+
+```scss
+@import "_cdnPublicFolder.scss";
+
+.preloader {
+  background: transparent cdnFile("/img/ajax-loader.gif") no-repeat center center;
+}
+```
+
+Create these folders/files:
+```
+|- /src
+  |- /common
+    |- /sass
+      |- /cdnPublicFolder
+        |- /dev
+          |- _cdnPublicFolder.scss
+        |- /live
+          |- _cdnPublicFolder.scss
+```
+
+`./src/common/sass/cdnPublicFolder/dev/_cdnPublicFolder.scss` contents:
+```scss
+// For Development environment.
+$commonFileBasePath: '';
+
+@function cdnFile($file) {
+  @return url($commonFileBasePath + $file);
+}
+```
+`./src/common/sass/cdnPublicFolder/live/_cdnPublicFolder.scss` contents:
+```scss
+// For Live environment.
+$commonFileBasePath: '/_commonFiles';
+
+@function cdnFile($file) {
+  @return url($commonFileBasePath + $file);
+}
+```
 
 
 ## NPM tasks
