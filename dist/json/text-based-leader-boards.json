@@ -1,0 +1,36 @@
+{
+  "data": {
+    "powerRatingLeaderBoard": {
+      "project": {
+        "name": "Sacaton Pump Storage Hydro",
+        "powerRating": "150000.0"
+      },
+      "company": {
+        "name": "LS Energy Solutions",
+        "powerRating": 254400
+      }
+    },
+    "energyRatingLeaderBoard": {
+      "project": {
+        "name": "Sacaton Pump Storage Hydro",
+        "energyRating": "1500000.0"
+      },
+      "company": {
+        "name": "Ramm Power Group",
+        "energyRating": 1500000
+      }
+    },
+    "developerLeaderBoard": [
+      {
+        "name": "Viking Cold Solutions",
+        "projects": 31
+      }
+    ],
+    "ownerOperatorLeaderBoard": [
+      {
+        "name": "Whole Foods",
+        "projects": 2
+      }
+    ]
+  }
+}

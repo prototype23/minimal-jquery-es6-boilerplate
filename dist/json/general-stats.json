@@ -1,0 +1,384 @@
+{
+  "usa": [
+    {
+      "state": "usa-map-00-Florida",
+      "total_projects": 342,
+      "total_power_rating": "30122.0",
+      "total_energy_rating": "120776.0",
+      "text": "Florida"
+    },
+    {
+      "state": "usa-map-46-California",
+      "total_projects": 277,
+      "total_power_rating": "101314.0",
+      "total_energy_rating": "334210.4",
+      "text": "California"
+    },
+    {
+      "state": "usa-map-12-ohio",
+      "total_projects": 220,
+      "total_power_rating": "55590.0",
+      "total_energy_rating": "39564.0",
+      "text": "Ohio"
+    },
+    {
+      "state": "usa-map-20-Texas",
+      "total_projects": 200,
+      "total_power_rating": "32885.8",
+      "total_energy_rating": "74587.0",
+      "text": "Texas"
+    },
+    {
+      "state": "usa-map-07-virginia",
+      "total_projects": 127,
+      "total_power_rating": "9033.0",
+      "total_energy_rating": "34213.0",
+      "text": "Virginia"
+    },
+    {
+      "state": "usa-map-17-indiana",
+      "total_projects": 96,
+      "total_power_rating": "26902.0",
+      "total_energy_rating": "27412.0",
+      "text": "Indiana"
+    },
+    {
+      "state": "usa-map-05-north-carlina",
+      "total_projects": 90,
+      "total_power_rating": "3683.0",
+      "total_energy_rating": "19069.0",
+      "text": "North Carolina"
+    },
+    {
+      "state": "usa-map-42-new-york",
+      "total_projects": 90,
+      "total_power_rating": "57325.0",
+      "total_energy_rating": "73781.0",
+      "text": "New York"
+    },
+    {
+      "state": "usa-map-26-wisconia",
+      "total_projects": 77,
+      "total_power_rating": "1668.0",
+      "total_energy_rating": "10029.0",
+      "text": "Wisconsin"
+    },
+    {
+      "state": "usa-map-25-michigan",
+      "total_projects": 74,
+      "total_power_rating": "3951.0",
+      "total_energy_rating": "23707.0",
+      "text": "Michigan"
+    },
+    {
+      "state": "usa-map-41-pensylavania",
+      "total_projects": 72,
+      "total_power_rating": "74940.0",
+      "total_energy_rating": "37756.0",
+      "text": "Pennsylvania"
+    },
+    {
+      "state": "usa-map-27-minesota",
+      "total_projects": 70,
+      "total_power_rating": "17063.0",
+      "total_energy_rating": "12403.0",
+      "text": "Minnesota"
+    },
+    {
+      "state": "usa-map-02-south-carolina",
+      "total_projects": 70,
+      "total_power_rating": "3321.0",
+      "total_energy_rating": "19945.0",
+      "text": "South Carolina"
+    },
+    {
+      "state": "usa-map-24-ilinois",
+      "total_projects": 69,
+      "total_power_rating": "124358.0",
+      "total_energy_rating": "32288.0",
+      "text": "Illinois"
+    },
+    {
+      "state": "usa-map-43-new-jersey",
+      "total_projects": 56,
+      "total_power_rating": "2144.0",
+      "total_energy_rating": "12878.0",
+      "text": "New Jersey"
+    },
+    {
+      "state": "usa-map-37-masachuset",
+      "total_projects": 55,
+      "total_power_rating": "63090.0",
+      "total_energy_rating": "145409.0",
+      "text": "Massachusetts"
+    },
+    {
+      "state": "usa-map-23-arizona",
+      "total_projects": 48,
+      "total_power_rating": "178613.8",
+      "total_energy_rating": "1517230.0",
+      "text": "Arizona"
+    },
+    {
+      "state": "usa-map-32-colorado",
+      "total_projects": 46,
+      "total_power_rating": "4881.0",
+      "total_energy_rating": "21284.0",
+      "text": "Colorado"
+    },
+    {
+      "state": "usa-map-10-maryland",
+      "total_projects": 41,
+      "total_power_rating": "11668.0",
+      "total_energy_rating": "10027.0",
+      "text": "Maryland"
+    },
+    {
+      "state": "usa-map-21-oklahoma",
+      "total_projects": 36,
+      "total_power_rating": "1081.0",
+      "total_energy_rating": "6506.0",
+      "text": "Oklahoma"
+    },
+    {
+      "state": "usa-map-06-tenesee",
+      "total_projects": 32,
+      "total_power_rating": "750.0",
+      "total_energy_rating": "4506.0",
+      "text": "Tennessee"
+    },
+    {
+      "state": "usa-map-13-delware",
+      "total_projects": 25,
+      "total_power_rating": "909.0",
+      "total_energy_rating": "5440.0",
+      "text": "Delaware"
+    },
+    {
+      "state": "usa-map-47-connecticut",
+      "total_projects": 21,
+      "total_power_rating": "904.0",
+      "total_energy_rating": "5414.0",
+      "text": "Connecticut"
+    },
+    {
+      "state": "usa-map-49-washoghton",
+      "total_projects": 20,
+      "total_power_rating": "2938.0",
+      "total_energy_rating": "6626.0",
+      "text": "Washington"
+    },
+    {
+      "state": "usa-map-22-new-mexico",
+      "total_projects": 18,
+      "total_power_rating": "1090.0",
+      "total_energy_rating": "6562.0",
+      "text": "New Mexico"
+    },
+    {
+      "state": "usa-map-15-HAWWAI",
+      "total_projects": 18,
+      "total_power_rating": "18356.0",
+      "total_energy_rating": "14534.0",
+      "text": "Hawaii"
+    },
+    {
+      "state": "usa-map-28-misouri",
+      "total_projects": 17,
+      "total_power_rating": "439.0",
+      "total_energy_rating": "2639.0",
+      "text": "Missouri"
+    },
+    {
+      "state": "usa-map-11-kentucky",
+      "total_projects": 17,
+      "total_power_rating": "347.0",
+      "total_energy_rating": "2080.0",
+      "text": "Kentucky"
+    },
+    {
+      "state": "usa-map-29-lowa",
+      "total_projects": 16,
+      "total_power_rating": "2389.0",
+      "total_energy_rating": "7075.0",
+      "text": "Iowa"
+    },
+    {
+      "state": "usa-map-03-alabama",
+      "total_projects": 16,
+      "total_power_rating": "436.0",
+      "total_energy_rating": "2613.0",
+      "text": "Alabama"
+    },
+    {
+      "state": "usa-map-16-PUERTO-RICO",
+      "total_projects": 16,
+      "total_power_rating": "2013.4",
+      "total_energy_rating": "6918.2",
+      "text": "Puerto Rico"
+    },
+    {
+      "state": "usa-map-34-south-dacota",
+      "total_projects": 14,
+      "total_power_rating": "285.0",
+      "total_energy_rating": "1706.0",
+      "text": "South Dakota"
+    },
+    {
+      "state": "usa-map-33-utah",
+      "total_projects": 13,
+      "total_power_rating": "199.0",
+      "total_energy_rating": "1201.0",
+      "text": "Utah"
+    },
+    {
+      "state": "usa-map-44-idaho",
+      "total_projects": 10,
+      "total_power_rating": "242.0",
+      "total_energy_rating": "1440.0",
+      "text": "Idaho"
+    },
+    {
+      "state": "usa-map-18-rhode-island",
+      "total_projects": 9,
+      "total_power_rating": "376.0",
+      "total_energy_rating": "2267.0",
+      "text": "Rhode Island"
+    },
+    {
+      "state": "usa-map-01-georgia",
+      "total_projects": 8,
+      "total_power_rating": "387.0",
+      "total_energy_rating": "2322.0",
+      "text": "Georgia"
+    },
+    {
+      "state": "usa-map-36-north-dacota",
+      "total_projects": 8,
+      "total_power_rating": "160.0",
+      "total_energy_rating": "961.0",
+      "text": "North Dakota"
+    },
+    {
+      "state": "usa-map-31-nebrasca",
+      "total_projects": 6,
+      "total_power_rating": "219.0",
+      "total_energy_rating": "1306.0",
+      "text": "Nebraska"
+    },
+    {
+      "state": "usa-map-48-Oregon",
+      "total_projects": 5,
+      "total_power_rating": "609.0",
+      "total_energy_rating": "1313.0",
+      "text": "Oregon"
+    },
+    {
+      "state": "usa-map-35-nevada",
+      "total_projects": 5,
+      "total_power_rating": "155.0",
+      "total_energy_rating": "933.0",
+      "text": "Nevada"
+    },
+    {
+      "state": "usa-map-04-misisipi",
+      "total_projects": 4,
+      "total_power_rating": "271.0",
+      "total_energy_rating": "1626.0",
+      "text": "Mississippi"
+    },
+    {
+      "state": "usa-map-30-kansas",
+      "total_projects": 4,
+      "total_power_rating": "156.0",
+      "total_energy_rating": "933.0",
+      "text": "Kansas"
+    },
+    {
+      "state": "usa-map-09-west-virginia",
+      "total_projects": 3,
+      "total_power_rating": "64027.0",
+      "total_energy_rating": "8160.0",
+      "text": "West Virginia"
+    },
+    {
+      "state": "usa-map-40-maine",
+      "total_projects": 3,
+      "total_power_rating": "6503.0",
+      "total_energy_rating": "13180.0",
+      "text": "Maine"
+    },
+    {
+      "state": "usa-map-45-vermont",
+      "total_projects": 3,
+      "total_power_rating": "39.0",
+      "total_energy_rating": "240.0",
+      "text": "Vermont"
+    },
+    {
+      "state": "usa-map-39-wyomig1",
+      "total_projects": 3,
+      "total_power_rating": "62.0",
+      "total_energy_rating": "373.0",
+      "text": "Wyoming"
+    },
+    {
+      "state": "usa-map-38-new-hamsire",
+      "total_projects": 3,
+      "total_power_rating": "209.0",
+      "total_energy_rating": "1253.0",
+      "text": "New Hampshire"
+    },
+    {
+      "state": "usa-map-14-arkansas",
+      "total_projects": 2,
+      "total_power_rating": "17.0",
+      "total_energy_rating": "107.0",
+      "text": "Arkansas"
+    },
+    {
+      "state": "usa-map-12-ohio",
+      "total_projects": 2,
+      "total_power_rating": "12000.0",
+      "total_energy_rating": "1000.0",
+      "text": "Ohio"
+    },
+    {
+      "state": "usa-map-09-west-virginia",
+      "total_projects": 1,
+      "total_power_rating": "2000.0",
+      "total_energy_rating": "14000.0",
+      "text": "West Virginia"
+    },
+    {
+      "state": "usa-map-49-washoghton",
+      "total_projects": 1,
+      "total_power_rating": "2000.0",
+      "total_energy_rating": "6400.0",
+      "text": "Washington"
+    },
+    {
+      "state": "usa-map-08-Louisiana",
+      "total_projects": 1,
+      "total_power_rating": "13.0",
+      "total_energy_rating": "80.0",
+      "text": "Louisiana"
+    },
+    {
+      "country": "Canada",
+      "total_projects": 72,
+      "total_power_rating": "16708.0",
+      "total_energy_rating": "22288.0",
+      "text": "Canada",
+      "state": "usa-map-51-canada"
+    },
+    {
+      "country": "Mexico",
+      "total_projects": 48,
+      "total_power_rating": "1652.4",
+      "total_energy_rating": "44841.0",
+      "text": "Mexico",
+      "state": "usa-map-19-Mexico"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "value": 2134,
+      "name": "Transmission\nConnected"
+    },
+    {
+      "value": 1548,
+      "name": "Distribution\nConnected"
+    }
+  ]
+}

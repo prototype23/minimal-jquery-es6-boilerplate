@@ -1,0 +1,31 @@
+{
+  "usa": [
+    {
+      "type": "project",
+      "text": "Puerto Rico",
+      "state": "usa-map-16-PUERTO-RICO",
+      "project_name": "Project Name #1",
+      "company_name": "Company Name #1",
+      "power_rating": 523000,
+      "energy_rating": 925000
+    },
+    {
+      "type": "project",
+      "text": "Hawwai",
+      "state": "usa-map-15-HAWWAI",
+      "project_name": "Project Name #2",
+      "company_name": "Company Name #2",
+      "power_rating": 123000,
+      "energy_rating": 125000
+    },
+    {
+      "type": "project",
+      "text": "Mexico",
+      "state": "usa-map-19-Mexico",
+      "project_name": "Project Name #2",
+      "company_name": "Company Name #2",
+      "power_rating": 123000,
+      "energy_rating": 125000
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "data": [
+    ["amount", "industry", "company"],
+    [1000, "Building Owners", "customedialabs"],
+    [600, "Finance Insurance", "3M company"],
+    [700, "Government/NonProfit Academia", "BMW"],
+    [500, "Grid Operator ISO/RTO", "Microsoft"],
+    [800, "Legal", "LG"],
+    [600, "Project Developer IPP", "MEIZU"],
+    [2000, "Software/IT", "Creative"],
+    [1000, "Supply Chain Manufacturer", "Ford"],
+    [1000, "System Integration/EPC", "SKG"]
+  ]
+}

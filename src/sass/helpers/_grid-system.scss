@@ -1,0 +1,90 @@
+.gridSystemCommon {
+  float: left;
+	display: block;
+	@include box-sizing(border-box);
+	min-height: 1px;
+}
+.col100p{
+	width: 100%;
+	@extend .gridSystemCommon;
+}
+.col80p{
+	width: 80%;
+	@extend .gridSystemCommon;
+}
+.col90p{
+	width: 90%;
+	@extend .gridSystemCommon;
+}
+.col20p{
+	width: 20%;
+	@extend .gridSystemCommon;
+}
+.col10p{
+	width: 10%;
+	@extend .gridSystemCommon;
+}
+.col70p{
+	width: 70%;
+	@extend .gridSystemCommon;
+}
+.col66p{
+	width: 66%;
+	@extend .gridSystemCommon;
+}
+.col60p, .twocol60p{
+	width: 60%;
+	@extend .gridSystemCommon;
+}
+.col30p{
+	width: 30%;
+	@extend .gridSystemCommon;
+}
+.col40p, .twocol40p{
+	width: 40%;
+	@extend .gridSystemCommon;
+}
+.col50p, .twocol{
+	width: 50%;
+	@extend .gridSystemCommon;
+}
+
+.col33p, .threecol{
+	width: 33%;
+	@extend .gridSystemCommon;
+}
+
+.fourcol, .col25p{
+	width: 25%;
+	@extend .gridSystemCommon;
+}
+
+.vcol4{
+	width: 100%;
+	height: 25%;
+	display: block;
+	@include box-sizing(border-box);
+}
+/*
+	 ==================================
+				media queries
+	 ==================================
+*/
+/* @media screen and (max-width: 767px) {
+	// clear fix on mobile
+    .fold-sm {
+    	float: none;
+    	&:after {
+			content: '';
+			clear: both;
+			display: table;
+    	}
+    }
+
+    // Column will accupie all width on mobile
+    .col100p-sm {
+    	width: 100%;
+    	padding-right: 0 !important;
+    	padding-left: 0 !important;
+   	}
+} */

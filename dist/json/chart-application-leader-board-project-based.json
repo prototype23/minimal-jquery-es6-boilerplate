@@ -1,0 +1,18 @@
+{
+  "categories": [
+    "Demand\nResponse",
+    "Frequency\nRegulation",
+    "Peak\nShaving",
+    "Ancillary\nServices",
+    "Transmission\nDeferral",
+    "Other"
+  ],
+  "data": [
+    320,
+    302,
+    341,
+    334,
+    390,
+    330
+  ]
+}

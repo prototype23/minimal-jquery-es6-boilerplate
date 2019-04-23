@@ -1,0 +1,144 @@
+/*
+  Also requires this css rule (not included here)
+
+  .noScroll {
+    overflow: hidden;
+  }
+
+  This class is toggled by javascript on the body.
+
+  ================
+  Html example #1
+  ================
+  <div id="myModal" class="modal modal--hidden" data-modal-close>
+    <div class="modal__main zoomInDown">
+        <div class="modal__header">
+            <div class="container">
+                <i class="ion-md-close modal__close-icon" data-modal-close></i>
+                <h3><br /><b>Header</b></h3>
+            </div>
+        </div>
+        <div class="modal__body">
+            <div class="container">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<button class="button button-outline" data-modal-open="myModal">Show modal</button>
+
+  ================
+  Html example #2
+  ================
+
+  <div id="myModal2" class="modal modal--hidden modal--dark modal--minimal modal--trans-mask" data-modal-close="" tabindex="-1">
+    <div class="modal__main fadeInDown">
+        <div class="modal__body">
+            <div class="container">
+
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <button class="button button-outline" data-modal-open="myModal2">Show modal #2</button>
+*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.7);
+  &.modal--hidden {
+    display: none;
+  }
+}
+
+.modal__main {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  @include border-radius (5px);
+  margin: $gutterAndPadding auto;
+  width: 80vw;
+}
+
+.modal__header {
+  position: relative;
+  height: 10vh;
+  min-height: 11em;
+  border-bottom: solid thin gray;
+}
+
+.modal__header-shadow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  @include box-shadow(-50px 0 50px 0 rgba(0, 0, 0, 0.8));
+}
+
+.modal__close-icon {
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: $gutterAndPadding;
+  padding: 1em;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.modal__body {
+  padding: 7vh 0 $gutterAndPadding 0;
+  min-height: 20vh;
+}
+
+/* ========== */
+/* Dark modal */
+/* ========== */
+.modal--dark {
+  .modal__header {
+    border-bottom-color: $modal-border-color;
+  }
+  .modal__main {
+    background-color: $modal-bg-color;
+    color: $modal-color;
+  }
+}
+
+/* ========================== */
+/* Modal with minimal header */
+/* ========================== */
+.modal--minimal-header {
+  .modal__header {
+    height: auto;
+    min-height: 0;
+    border-bottom: none 0 transparent;
+  }
+}
+
+/* =============== */
+/* Minimal Modaly  */
+/* =============== */
+.modal--minimal {
+  .modal__header {
+    display: none;
+  }
+  .modal__body {
+    padding: 0;
+    min-height: 20vh;
+  }
+}
+
+/* =========================== */
+/* Modal with Transparent Mask */
+/* =========================== */
+.modal--trans-mask {
+  background-color: transparent;
+}

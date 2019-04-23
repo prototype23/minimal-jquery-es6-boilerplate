@@ -1,0 +1,18 @@
+{
+  "categories": [
+    "Solid State\nBatteries",
+    "Flow Batteries",
+    "Flywheels",
+    "Compressed Air\nEnergy Storage",
+    "Thermal",
+    "Pumped Hydro"
+  ],
+  "data": [
+    10,
+    52,
+    2000,
+    3340,
+    3900,
+    3300
+  ]
+}

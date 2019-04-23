@@ -1,0 +1,31 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.heading {
+  font-weight: 500;
+  &--bold {
+    font-weight: 600;
+  }
+  &--upper {
+    text-transform: uppercase;
+  }
+}
+
+.p {
+  font-size: 1.5em;
+  color: black;
+  &.p--no-margin {
+    margin-bottom: 0;
+  }
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.sup {
+  font-size: small;
+}

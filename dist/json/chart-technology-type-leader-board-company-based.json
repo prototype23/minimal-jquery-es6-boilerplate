@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "value": 50,
+      "company": "Customedialabs",
+      "name": "Solid State\nBatteries"
+    },
+    {
+      "value": 30,
+      "company": "3M company",
+      "name": "Flow\nBatteries"
+    },
+    {
+      "value": 10,
+      "company": "BMW",
+      "name": "Flywheels"
+    },
+    {
+      "value": 15,
+      "company": "Coca Cola",
+      "name": "Compressed Air\nEnergy Storage"
+    },
+    {
+      "value": 10,
+      "company": "Microsoft",
+      "name": "Thermal"
+    },
+    {
+      "value": 35,
+      "company": "Dell",
+      "name": "Pumped\nHydro"
+    }
+  ]
+}
