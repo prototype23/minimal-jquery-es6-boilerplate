@@ -94,19 +94,18 @@ For this purpose for each environment we will create a sass mixin `cdnFile` and 
 }
 ```
 
-Create these folders/files:
+Edit these folders/files:
 ```
 |- /src
-  |- /common
-    |- /sass
-      |- /cdnPublicFolder
-        |- /dev
-          |- _cdnPublicFolder.scss
-        |- /live
-          |- _cdnPublicFolder.scss
+  |- /sass
+    |- /cdnPublicFolder
+      |- /dev
+        |- _cdnPublicFolder.scss
+      |- /live
+        |- _cdnPublicFolder.scss
 ```
 
-`./src/common/sass/cdnPublicFolder/dev/_cdnPublicFolder.scss` contents:
+`./src/sass/cdnPublicFolder/dev/_cdnPublicFolder.scss` contents:
 ```scss
 // For Development environment.
 $commonFileBasePath: '';
@@ -115,7 +114,8 @@ $commonFileBasePath: '';
   @return url($commonFileBasePath + $file);
 }
 ```
-`./src/common/sass/cdnPublicFolder/live/_cdnPublicFolder.scss` contents:
+
+`./src/sass/cdnPublicFolder/live/_cdnPublicFolder.scss` contents:
 ```scss
 // For Live environment.
 $commonFileBasePath: '/_commonFiles';
@@ -125,6 +125,22 @@ $commonFileBasePath: '/_commonFiles';
 }
 ```
 
+## Demo page / Installation
+1. Fork/ Download this project
+2. [Install Nodejs/NPM](#Install-Nodejs/NPM) (Skip this if you already have nodejs installed)
+3. From the project's root run:
+```
+  npm install
+```
+4. Start development..
+```
+  npm run live-reload
+```
+
+Or build the bundle for live and open `dist/index.html` on your browser.
+```
+  npm run build:live
+```
 
 ## NPM tasks
 Watch files for changes and rebuild app:
@@ -151,5 +167,5 @@ Make a bundle and view the stats:
 ```
 npm run bundle-stats
 ```
-Creates a `bundle-stats.json` file.
+Also creates a `bundle-stats.json` file.
 
