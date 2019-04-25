@@ -134,6 +134,7 @@ $commonFileBasePath: '/_commonFiles';
 ```
 4. Start development..
 ```
+  npm run watch
   npm run live-reload
 ```
 
