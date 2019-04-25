@@ -12,12 +12,12 @@ $brandColorTertiaryContrast: white;
 $brandColorQuaternary: rgba(23, 86, 118, 1);
 
 // Milligram framework Color overrides. Original can be found @ node_modules\milligram\src\_Color.sass
-$color-initial: #fff;
-$color-primary: $brandColorMain; // milligram had #9b4dca.
-$color-secondary: #606c76;
-$color-tertiary: #f4f5f6;
-$color-quaternary: #d1d1d1;
-$color-quinary: #e1e1e1;
+$color-initial: $brandColorMainContrast; // Used as Button color (default, focus, hover states)
+$color-primary: $brandColorMain;         // Used on Buttons (hover-focus states), code border-left, form borders (focus state), links (default states).
+$color-secondary: #606c76;             // Used on body text, links and Buttons (hover-focus states).
+$color-tertiary: #f4f5f6;              // Used on Blockquote left border.
+$color-quaternary: #d1d1d1;            // Used on form borders (inputs, selects, textareas).
+$color-quinary: #e1e1e1;               // Used on tables border-bottom.
 
 // Modal
 $modal-bg-color: rgba(28, 37, 62, 0.92);
