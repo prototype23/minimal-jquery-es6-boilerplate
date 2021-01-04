@@ -30,6 +30,11 @@ npm run prod
 - Starts a nodejs web-server @ http://localhost:9000/
 - Opens the app there with your default browser
 
+## Build app for Production
+```
+npm install
+npm run build:prod
+```
 
 ## Bundle-stats
 ```
