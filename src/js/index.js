@@ -1,4 +1,4 @@
-import '../css/animate/animate.css';
+import 'AnimateCss';
 import '../sass/global.scss';
 import '../sass/index/index.scss';
 
@@ -12,7 +12,9 @@ import flashMessage from './flash-message.js';
 // import carousel from './carousel.js';
 
 $(document).ready(function () {
-  setTimeout(() => flashMessage('js works!'), 1500);
+  $('body').removeClass('display--none');
+
+  setTimeout(() => flashMessage('js works'), 1500);
 
   // carousel.init();
 

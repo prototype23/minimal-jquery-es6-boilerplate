@@ -1,8 +1,48 @@
 # Milligram - jQuery - ES6 Boilerplate
 A minimal, ES6 boilerplate, for simple landing pages.
 
-## What's included
-  - [webpack v4](https://webpack.js.org/guides/installation/) - Asset Bundler.
+
+## Demo page
+1. Fork/ Download this project
+2. [Install Nodejs/NPM](#Install-Nodejs/NPM) (Skip this if you already have nodejs installed)
+3. From the project's root run:
+```
+  npm install
+  npm run prod
+```
+
+## Development
+```
+  npm install
+  npm run dev
+```
+- Watches source files and builds the app for development on changes
+- Starts a nodejs web-server @ http://localhost:9000/
+- Opens the app there with your default browser (you have to manually reload the page)
+
+
+## Test app for Production
+```
+npm install
+npm run prod
+```
+- Builds the app for production
+- Starts a nodejs web-server @ http://localhost:9000/
+- Opens the app there with your default browser
+
+
+## Bundle-stats
+```
+npm install
+npm run stats
+```
+Builds the app for production and opens an interactive page on your browser with bundle statistics.
+This will help you to understand your bundle and optimize your app.
+Also creates a `bundle-stats.json` file.
+
+
+## What's included on package.json
+  - [webpack v5](https://webpack.js.org) - Asset Bundler.
     - Configuration for multiple [environments](#environments) and CDNs.
     - [Bundle Analyser](https://github.com/webpack-contrib/webpack-bundle-analyzer)
   - [Babel v7](https://babeljs.io/) - ES6 javascript compiler.
@@ -10,9 +50,12 @@ A minimal, ES6 boilerplate, for simple landing pages.
   - [IDE tools - ESLint](#IDE-tools-ESLint)
   - [Sass](http://sass-lang.com/) and [Compass mixins](https://github.com/askucher/compass-sass-mixins) - Scss compiler and utils.
   - [Milligram](https://milligram.io/index.html]https://milligram.io/index.html) - A minimalist CSS framework.
-  - [Ionicons](https://ionicons.com/) - Font icons.
+  - [Animate.css 4.1.1](https://github.com/animate-css/animate.css)
+
+## What's included with simple CDN load
+  - [Ionicons 4.5.10-0](https://ionicons.com/v4/) - Font icons.
     - Fonts are loaded by cdn url by default, but boilerplate contains an example if you prefer to load them with webpack.
-  - [jQuery, v3.4.0](https://jquery.com/) - Event management and DOM manipulation.
+  - [jQuery, v3.5.1](https://jquery.com/) - Event management and DOM manipulation.
     - Jquery is loaded by cdn url by default, but boilerplate contains a webpack configuration and a js example if you prefer to load it with webpack. Just uncomment `Expose jQuery` section on the `wepack.common.js` file and `src/index.js`.
   - [owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/) - Carousel.
 
@@ -69,6 +112,7 @@ Concept:
   2. [CDN public urls on scss](#CDN-public-urls-on-scss)
 
 ## CDN public urls on scss
+**This might not work. Not tested with webpack 5**
 If your website uses CDNs for the images, css might require different urls per
 environment. For example an image preloader could have this url on development environment:
 
@@ -125,48 +169,6 @@ $commonFileBasePath: '/_commonFiles';
 }
 ```
 
-## Demo page / Installation
-1. Fork/ Download this project
-2. [Install Nodejs/NPM](#Install-Nodejs/NPM) (Skip this if you already have nodejs installed)
-3. From the project's root run:
-```
-  npm install
-```
-4. Start development..
-```
-  npm run watch
-  npm run live-reload
-```
 
-Or build the bundle for live and open `dist/index.html` on your browser.
-```
-  npm run build:live
-```
 
-## NPM tasks
-Watch files for changes and rebuild app:
-```
-npm run watch
-```
-
-Opens app on your default Browser and reloads page on changes.
-```
-npm run live-reload
-```
-
-Build the app for local development:
-```
-npm run build
-```
-
-Build the app for the production server:
-```
-npm run build:live
-```
-
-Make a bundle and view the stats:
-```
-npm run bundle-stats
-```
-Also creates a `bundle-stats.json` file.
 

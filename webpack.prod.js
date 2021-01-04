@@ -1,5 +1,6 @@
-const merge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
+const path = require('path');
 
 module.exports = merge(common, {
   // webpack main settings
@@ -14,7 +15,9 @@ module.exports = merge(common, {
           {
             loader: 'sass-loader',
             options: {
-              includePaths: ['./src/sass', './src/sass/cdnPublicFolder/live']
+              sassOptions: {
+                includePaths: [path.resolve(__dirname, 'src/sass'), path.resolve(__dirname, 'src/sass/cdnPublicFolder/live')]
+              }
             }
           }
         ]

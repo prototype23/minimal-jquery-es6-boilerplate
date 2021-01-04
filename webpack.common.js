@@ -3,13 +3,18 @@ const path = require('path');
 
 module.exports = {
   // Webpack main settings
+   /*  cache: {
+     type: 'filesystem'
+   }, */
   entry: {
-    index: './src/js/index.js'
+    index: path.resolve(__dirname, 'src/js/index.js'),
   },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist/js'),
+    publicPath: '/dist/'
   },
+  target: ['web', 'es5'],
   // Configure how modules are resolved.
   resolve: {
     alias: {
@@ -23,6 +28,8 @@ module.exports = {
       Milligram: path.resolve(__dirname, 'node_modules/milligram/src/milligram.sass'),
       // When calling '@import 'Ionicons';
       // Ionicons: path.resolve(__dirname, 'dist/fonts/ionicons/ionicons.css'),
+      // When calling '@import 'AnimateCss';
+      AnimateCss: path.resolve(__dirname, 'node_modules/animate.css/animate.css'),
     }
   },
   // Define pre-compilers, linters for each file type
@@ -50,6 +57,4 @@ module.exports = {
       'window.jQuery': 'jquery'
     }),
   ], */
-  // devtool may have issues with ie11
-  devtool: false
 };
