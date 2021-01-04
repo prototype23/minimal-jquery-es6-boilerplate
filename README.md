@@ -79,6 +79,9 @@ Also creates a `bundle-stats.json` file.
   - A custom grid system to use if needed - Milligram has it's own too. (_grid-system.scss)
   - Two sets of color variables. Milligram's vars and one extra set. (vars.scss)
 
+### Batch files
+For windows we included some batch files inside the folder `bat`. You can create shortcuts to your desktop an click them instead of typing the workflow commands.
+
 ## Folder structure
 ### Needed on Distribution / Live
 ```
