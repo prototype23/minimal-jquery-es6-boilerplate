@@ -62,10 +62,9 @@ Also creates a `bundle-stats.json` file.
     - Fonts are loaded by cdn url by default, but boilerplate contains an example if you prefer to load them with webpack.
   - [jQuery, v3.5.1](https://jquery.com/) - Event management and DOM manipulation.
     - Jquery is loaded by cdn url by default, but boilerplate contains a webpack configuration and a js example if you prefer to load it with webpack. Just uncomment `Expose jQuery` section on the `wepack.common.js` file and `src/index.js`.
-  - [owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/) - Carousel.
+  - [photoswipe](https://photoswipe.com/) - Carousel.
 
 ### Some custom js helpers:
-  - A js helper for the carousel. (carousel.js)
   - A js helper for the animateCss. (simple-animation.js). If you need something more complicated use [Actuate](https://github.com/lukejacksonn/Actuate) or [Anime.js](https://animejs.com/)
   - A minimal modal. (modal.js)
   - A minimal flash messenger. (flash-message.js)

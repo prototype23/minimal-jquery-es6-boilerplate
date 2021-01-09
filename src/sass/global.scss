@@ -15,9 +15,10 @@
 
 
 // @import "./helpers/_grid-system.scss";
-@import "./helpers/_utils.scss";
-@import "./helpers/_flash-message.scss";
+@import "./helpers/utils.scss";
+@import "./helpers/flash-message.scss";
 @import "./helpers/modal.scss";
+@import "./helpers/photoswipe_url_fix.scss";
 
 html, body {
   padding: 0;

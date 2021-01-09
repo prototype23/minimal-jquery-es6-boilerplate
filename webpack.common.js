@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   // Webpack main settings
-   /*  cache: {
+  /*  cache: {
      type: 'filesystem'
    }, */
   entry: {
@@ -18,18 +18,17 @@ module.exports = {
   // Configure how modules are resolved.
   resolve: {
     alias: {
-      // When calling '@import 'Compass';.
-      Compass: path.resolve(__dirname, 'node_modules/compass-sass-mixins/lib/_compass.sass'),
-      // When calling '@import 'CompassAnimate';.
-      CompassAnimate: path.resolve(__dirname, 'node_modules/compass-sass-mixins/lib/_animate.sass'),
-      // When calling '@import 'CompassReset';.
-      CompassReset: path.resolve(__dirname, 'node_modules/compass-sass-mixins/lib/compass/reset/_utilities.sass'),
-      // When calling '@import 'Milligram';
-      Milligram: path.resolve(__dirname, 'node_modules/milligram/src/milligram.sass'),
       // When calling '@import 'Ionicons';
       // Ionicons: path.resolve(__dirname, 'dist/fonts/ionicons/ionicons.css'),
-      // When calling '@import 'AnimateCss';
+      Compass: path.resolve(__dirname, 'node_modules/compass-sass-mixins/lib/_compass.sass'),
+      CompassAnimate: path.resolve(__dirname, 'node_modules/compass-sass-mixins/lib/_animate.sass'),
+      CompassReset: path.resolve(__dirname, 'node_modules/compass-sass-mixins/lib/compass/reset/_utilities.sass'),
+      Milligram: path.resolve(__dirname, 'node_modules/milligram/src/milligram.sass'),
       AnimateCss: path.resolve(__dirname, 'node_modules/animate.css/animate.css'),
+      PhotoSwipeCss: path.resolve(__dirname, 'node_modules/photoswipe/dist/photoswipe.css'),
+      PhotoSwipeThemeCss: path.resolve(__dirname, 'node_modules/photoswipe/dist/default-skin/default-skin.css'),
+      PhotoSwipe: path.resolve(__dirname, 'node_modules/photoswipe/dist/photoswipe.js'),
+      PhotoSwipeUI: path.resolve(__dirname, 'node_modules/photoswipe/dist/photoswipe-ui-default.js'),
     }
   },
   // Define pre-compilers, linters for each file type
