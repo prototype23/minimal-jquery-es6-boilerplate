@@ -3,6 +3,8 @@
 @import "CompassReset";
 @import "./helpers/input-placeholder.scss";
 
+@import "../css/bootstrap-reboot.css";
+
 @import "_vars.scss";
 @import "Milligram";
 
@@ -16,6 +18,7 @@
 
 // @import "./helpers/_grid-system.scss";
 @import "./helpers/utils.scss";
+@import "./helpers/top-nav-and-footer-menus.scss";
 @import "./helpers/flash-message.scss";
 @import "./helpers/modal.scss";
 @import "./helpers/photoswipe_url_fix.scss";

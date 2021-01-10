@@ -57,12 +57,13 @@ Also creates a `bundle-stats.json` file.
   - [Milligram](https://milligram.io/index.html]https://milligram.io/index.html) - A minimalist CSS framework.
   - [Animate.css 4.1.1](https://github.com/animate-css/animate.css)
 
-## What's included with simple CDN load
+## What's included with simple CDN or CSS load
   - [Ionicons 4.5.10-0](https://ionicons.com/v4/) - Font icons.
     - Fonts are loaded by cdn url by default, but boilerplate contains an example if you prefer to load them with webpack.
   - [jQuery, v3.5.1](https://jquery.com/) - Event management and DOM manipulation.
     - Jquery is loaded by cdn url by default, but boilerplate contains a webpack configuration and a js example if you prefer to load it with webpack. Just uncomment `Expose jQuery` section on the `wepack.common.js` file and `src/index.js`.
-  - [photoswipe](https://photoswipe.com/) - Carousel.
+  - [photoswipe](https://photoswipe.com/) - Photo viewer.
+  - [bootstrap-reboot.css](https://github.com/twbs/bootstrap/tree/v4-dev/dist/css) -  Bootstrap v4.5.3 reset css
 
 ### Some custom js helpers:
   - A js helper for the animateCss. (simple-animation.js). If you need something more complicated use [Actuate](https://github.com/lukejacksonn/Actuate) or [Anime.js](https://animejs.com/)
