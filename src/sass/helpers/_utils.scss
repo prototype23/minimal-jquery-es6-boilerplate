@@ -65,7 +65,8 @@
 }
 
 .noScroll {
-  overflow: hidden;
+  overflow: hidden !important;
+  -webkit-overflow-scrolling: auto;
 }
 
 .display--none {
@@ -75,4 +76,10 @@
 .list-style-type--none {
   list-style-type: none;
 }
+.relative {
+  position: relative;
+}
 
+.text-larger {
+  font-size: larger;
+}

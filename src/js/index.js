@@ -13,13 +13,13 @@ import PhotoSwipe from 'PhotoSwipe';
 import PhotoSwipeUI from 'PhotoSwipeUI';
 import './simple-animation.js';
 
-import flashMessage from './flash-message.js';
+// import flashMessage from './flash-message.js';
 // import carousel from './carousel.js';
 
 $(document).ready(function () {
   $('body').removeClass('display--none');
 
-  setTimeout(() => flashMessage('js works'), 1500);
+  // setTimeout(() => flashMessage('js works'), 1500);
 
   // carousel.init();
 
@@ -27,6 +27,42 @@ $(document).ready(function () {
     .animateCss('zoomIn', function() {
       // Do something after animation
     });
+
+  // Initializes hamburger menu for mobile
+  (function() {
+    var mobileMenuOverlay = $('#hamburger-menu');
+    var body = $('body').eq(0);
+    var mobileMenuItems = $('#hamburger-menu__items-group');
+    var ham1 = $('.top-nav-menu__ham');
+    var ham2 = $('.top-nav-menu__ham2');
+
+    ham1
+      .off('click.main')
+      .on('click.main', function(e) {
+        e && e.preventDefault();
+
+        ham1.hide();
+        body.addClass('noScroll');
+        mobileMenuOverlay
+          .addClass('active')
+          .animateCss('fadeIn');
+        mobileMenuItems.animateCss('flipInY');
+      });
+
+    ham2
+      .off('click.main')
+      .on('click.main', function(e) {
+        e && e.preventDefault();
+
+        mobileMenuItems.animateCss('flipOutY', function() {
+          mobileMenuOverlay.animateCss('fadeOut', function() {
+            mobileMenuOverlay.removeClass('active');
+            ham1.show();
+            body.removeClass('noScroll');
+          });
+        });
+      });
+  }());
 
   // Initializes and opens PhotoSwipe
   (function() {

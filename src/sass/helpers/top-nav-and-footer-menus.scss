@@ -13,8 +13,36 @@
     display: none;
     padding: 1em 2em;
 }
-.top-nav-menu__hum {
+.top-nav-menu__ham,
+.top-nav-menu__ham2 {
   display: block;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.top-nav-menu-mobile {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -100px; // Fixes a glitch on android/Chrome
+  background-color: rgba($brandColorMain, 0.96);
+  z-index: 100;
+  text-align: center;
+  &.active {
+    display: block;
+    .top-nav-menu__item {
+      display: block;
+      color: $brandColorMainContrast;
+    }
+  }
 }
 
 .footer-nav-menu {
@@ -48,7 +76,7 @@
     border-bottom: none 0 transparent;
     border-right: solid thin darken($brandColorTertiaryContrast, 50%);
   }
-  .top-nav-menu__hum {
+  .top-nav-menu__ham {
     display: none !important;
   }
 }
