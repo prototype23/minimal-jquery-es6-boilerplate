@@ -42,6 +42,7 @@ $(document).ready(function () {
         e && e.preventDefault();
 
         ham1.hide();
+        ham2.show();
         body.addClass('noScroll');
         mobileMenuOverlay
           .addClass('active')
@@ -53,7 +54,7 @@ $(document).ready(function () {
       .off('click.main')
       .on('click.main', function(e) {
         e && e.preventDefault();
-
+        ham2.hide();
         mobileMenuItems.animateCss('flipOutY', function() {
           mobileMenuOverlay.animateCss('fadeOut', function() {
             mobileMenuOverlay.removeClass('active');
