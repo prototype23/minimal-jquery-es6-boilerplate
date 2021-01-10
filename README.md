@@ -1,8 +1,10 @@
 # Milligram - jQuery - ES6 Boilerplate
 A minimal, ES6 boilerplate, for simple landing pages.
 
+[Online Demo page](https://prototype23.github.io/minimal-jquery-es6-boilerplate/dist/)
 
-## Demo page
+
+## Demo page (Local)
 1. Fork/ Download this project
 2. [Install Nodejs/NPM](#Install-Nodejs/NPM) (Skip this if you already have nodejs installed)
 3. From the project's root run:
