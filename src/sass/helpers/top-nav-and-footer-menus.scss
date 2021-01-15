@@ -31,11 +31,16 @@
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: -100px; // Fixes a glitch on android/Chrome
+  width: 100vw;
+  height: 100vh;
   background-color: rgba($brandColorMain, 0.96);
   z-index: 100;
   text-align: center;
+  .container {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
   &.active {
     display: block;
     .top-nav-menu__item {
@@ -79,6 +84,10 @@
   .top-nav-menu__ham {
     display: none !important;
   }
+  .top-nav-menu-mobile.active {
+    display: none !important;
+  }
+
 }
 
 /* Larger than tablet screen */
