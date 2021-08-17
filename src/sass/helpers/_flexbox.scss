@@ -16,14 +16,13 @@
     @include align-items(flex-start);
     @include align-content(flex-start);
 
-    &.space-around {
-        @include justify-content(space-around);
-    }
-    &.flex-start {
-        @include justify-content(flex-start);
-    }
-    &.center {
+    // Vertical or Horizontal center alignment.
+    // Works in both flex directions.
+    &.flex-center {
+        @include align-items(center);
         @include justify-content(center);
+        @include align-content(stretch);
+        height: 100%;
     }
 }
 
@@ -41,4 +40,8 @@
         @include flex-shrink(0);
         @include flex-grow(1);
     }
+}
+
+.flex {
+  @include flex-container();
 }

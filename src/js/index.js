@@ -69,7 +69,7 @@ $(document).ready(function () {
   (function() {
     var items = [
       {
-        html: '<div style="padding-top: 100px; text-align: center;"><h1>Any HTML <a href="http://example.com">content</a></h1></div>'
+        html: $('#custom-slide-1').html()
       },
       {
         src: 'https://placekitten.com/600/400',
@@ -98,7 +98,20 @@ $(document).ready(function () {
       .off('click.main')
       .on('click.main', function(e) {
         e && e.preventDefault();
-        var gallery = new PhotoSwipe( $('.pswp').get(0), PhotoSwipeUI, items, {index: 0, history: false, shareEl: false, tapToClose: false, clickToCloseNonZoomable: false, closeOnScroll:false});
+
+        var gallery = new PhotoSwipe(
+          $('.pswp').get(0),
+          PhotoSwipeUI,
+          items,
+          {
+            index: 0,
+            history: false,
+            shareEl: false,
+            tapToClose: false,
+            clickToCloseNonZoomable: false,
+            closeOnScroll:false
+          }
+        );
 
         gallery.init();
       });
